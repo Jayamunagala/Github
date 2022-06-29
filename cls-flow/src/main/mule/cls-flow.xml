@@ -26,5 +26,6 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	</sub-flow>
 	<flow name="privateflow" doc:id="74f91320-0793-477e-888e-6016f2c11d74" >
 		<logger level="INFO" doc:name="Logger" doc:id="6971effb-c246-4344-b09a-7487b2aa349e" message="private flow calling"/>
+		<logger level="INFO" doc:name="Logger" doc:id="6971effb-c246-4344-b09a-7487b2aa349e" message="changes done"/>
 	</flow>
 </mule>

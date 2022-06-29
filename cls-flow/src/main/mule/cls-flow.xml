@@ -17,6 +17,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<logger level="INFO" doc:name="Logger" doc:id="c46746c7-99ec-4539-8309-8fc56fec044a" message="flowreference calling private flow and subflow"/>
 		<flow-ref doc:name="Flow Reference" doc:id="6a755042-b2e4-4c8f-bd87-e6692f631674" name="privateflow"/>
 		<logger level="INFO" doc:name="Logger" doc:id="71579e23-ecc6-40f5-a9b9-0ec9a4bd6641" message="stop"/>
+		<logger level="INFO" doc:name="Logger" doc:id="da782a6e-6156-452b-83d2-3b4015c85b0d" message="hello"/>
 	</flow>
 	<flow name="cls-flowFlow1" doc:id="a2a99b57-296d-4bc9-97bf-50a9f0e7a449" >
 		<logger level="INFO" doc:name="privateflow" doc:id="f8415858-b630-477a-b277-b88c4eb67717" message="hey this is subflow"/>
